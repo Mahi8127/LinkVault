@@ -1,0 +1,45 @@
+# Compiled class files and build artifacts
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Environment Variables & Credentials (CRITICAL - DO NOT COMMIT)
+.env
+.env.*
+*.env
+application-local.properties
+application-secret.properties
+
+# IDE & Editor Specific
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+.apt_generated/
+.springBeans
+.sts4-cache/
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+# Operating System Specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs, crash dumps and reports
+*.log
+*.dump
+*.dumpstream

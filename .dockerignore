@@ -1,0 +1,30 @@
+# Build artifacts
+target/
+
+# Maven Wrapper binaries
+.mvn/wrapper/maven-wrapper.jar
+
+# Version control
+.git
+.gitignore
+
+# Environment variables & secrets (NEVER package into Docker)
+.env
+.env.*
+*.env
+
+# IDE and Editor files
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+
+# Build and configuration files
+Dockerfile
+.dockerignore
+README.md
+
+# OS files
+Thumbs.db
+.DS_Store
